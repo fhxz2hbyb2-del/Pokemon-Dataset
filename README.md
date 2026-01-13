@@ -19,7 +19,7 @@ $^*$ <sup> Some Pokémon descriptions may not have any proper nouns or named ent
 
 The corpus is made during an exercise carried out for the course Collecting Data in the masters’ program at the University of Groningen. It is intended for use in linguistic analysis and educational purposes. 
 
-Each Pokémon description is also saved as a separate .txt file inside the data/ directory for ease of inspection and later processing. The dataset was created automatically by a Python script that queried the PokéAPI for each Pokémon and exported the results into CSV format. 
+Each Pokémon description is also saved as a separate .txt file inside the data/ directory for ease of inspection and later processing. The dataset was created automatically by a Python script that queried the PokéAPI for each Pokémon and exported the results into CSV format. The code that was used for creating the dataset can be found in the Jupyter Notebook called 'pokedex_data_creation'. Within that notebook, there is also a small analysis part just to give an idea of what is possible with this dataset.
 
 Tools used:
 
@@ -27,6 +27,7 @@ Tools used:
 * requests for API access
 * pandas for data handling and CSV export
 * spaCy for text preprocessing and linguistic annotation
+* MatLibPlot and VADER for the analysis part 
 
 All Pokémon names and descriptions are property of their respective copyright holders. Data was accessed legally via the public PokéAPI under fair use for research and educational purposes.\
 <sub>Author: Lise Feringa</sub>
